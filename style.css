@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    color:cyan
+}
+
+.image_1 {
+    height: 100vh;
+    background-image: url(mountain.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.image_2 {
+    height: 600px;
+    background-image: url(ISS.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.image_3 {
+    height: 600px;
+    background-image: url(space_shuttle.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
