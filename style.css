@@ -5,7 +5,7 @@ body{
 
 .image_1 {
     height: 100vh;
-    background-image: url(mountain.jpg);
+    background-image: url(Man-o-war.webp);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ body{
 
 .image_2 {
     height: 600px;
-    background-image: url(ISS.jpg);
+    background-image: url(Dolphin.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +29,19 @@ body{
 
 .image_3 {
     height: 600px;
-    background-image: url(space_shuttle.jpg);
+    background-image: url(Shark.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.image_4 {
+    height: 600px;
+    background-image: url(Whale.webp);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
