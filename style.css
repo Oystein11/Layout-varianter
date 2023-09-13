@@ -1,6 +1,7 @@
 body{
     margin:0px;
-    color:cyan
+    color:black;
+    background-color: aquamarine;
 }
 
 .image_1 {
@@ -16,7 +17,7 @@ body{
 }
 
 .image_2 {
-    height: 600px;
+    height: 100vh;
     background-image: url(Dolphin.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -28,7 +29,7 @@ body{
 }
 
 .image_3 {
-    height: 600px;
+    height: 100vh;
     background-image: url(Shark.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -40,8 +41,20 @@ body{
 }
 
 .image_4 {
-    height: 600px;
-    background-image: url(Whale.webp);
+    height: 100vh;
+    background-image: url(Whale_mod.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.image_5 {
+    height: 100vh;
+    background-image: url(Anglerfish_mod.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
